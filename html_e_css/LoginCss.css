@@ -1,0 +1,137 @@
+
+body{
+	background-image: url(Loginimg.jpg);
+	background-size: cover;
+}
+
+.arealogin{
+
+	width: 500px;
+	height: auto;
+	border: none;
+	border-radius: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 5, 0.9);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 38px;
+}
+.arealogin hr{
+	background-color: #fff;
+	border: 0.5px solid;
+}
+
+.arealogin input{
+	width: 100%;
+	margin-bottom: 15px;
+
+}
+
+.arealogin input[type='text'], input[type='password'], input[type='number']{
+
+	border:  none;
+	border-bottom: solid 1px white;
+	background: transparent;
+	outline: none;
+	height: 20px;
+	color: white;
+	font-size: 16px;
+}
+.arealogin input[type='submit']{
+
+    margin-top: 10px;
+	border-radius: 20px;
+	border:  none;
+	height: 30px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	transition: 0.2s;
+}
+.arealogin input[type='submit']:hover{
+	border: solid 2.5px #000;
+    background-color: #ADD8E6;
+}
+
+p{
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h3{
+	font-family: Arial;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+
+.login a{
+    text-decoration: none;
+    color: #D3D3D3;
+    position: relative;
+    left: 36%;
+   
+}
+.login a:hover{
+	color: #4682B4;
+}
+
+.login p{
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+
+
+.cadastroLogin hr{
+
+	background-color: #fff;
+	border: solid 0.5px;
+	width: 41.8%;
+	float: left;
+	margin-top: 10px;
+    display: block;
+    position: relative;
+}
+.cadastroLogin p{
+	text-align: center;
+}
+.cadastroLogin input[type='button']{
+
+	margin-top: 10px;
+	border-radius: 20px;
+	border:  none;
+	height: 30px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	transition: 0.2s;
+	font-family: arial;
+}
+.cadastroLogin input[type='button']:hover{
+    border: solid 2.5px #000;
+    background-color: #ADD8E6;
+}
+.lhr{
+	margin: 0 auto;
+	position: relative;
+	top: -18px;
+	left: 70px;
+}
+.ou{
+	margin: 0 auto;
+	left: -87px;
+	position: relative;
+	display: block;
+	margin-top: 8px;
+}
+
+

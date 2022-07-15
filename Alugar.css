@@ -1,0 +1,269 @@
+
+
+body{
+	background-color: whitesmoke;
+}
+
+.container{
+	border-radius: 20px;
+	height: 1750px;
+	padding-left: 100px;
+	padding-top: 50px;
+	padding-right: 100px;
+	background-color: #fff;
+	margin-top: 70px;
+	margin-bottom: 100px;
+	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.imagem{
+	height: 300px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+.imagem img{
+	border-radius: 20px;
+}
+.titulo{
+	margin-bottom: 90px;
+}
+span{
+	font-size: 16px;
+	font-family: Arial;
+    padding-right: 100px;
+}
+.cidade{
+	font-size: 28px;
+	font-family: Arial;
+	padding-right: 0px;
+}
+.estado{
+	font-size: 28px;
+	font-family: Arial;
+	padding-right: 0px;
+}
+
+.dadosdono{
+	height: 190px;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+.dadosdono span{
+	color: #222222;
+}
+td{
+	color: #222222;
+}
+p{
+	padding-top: 20px;
+	font-size: 30px;
+	color: #222222;
+	letter-spacing: 1px;
+}
+hr{
+	margin-top: 20px;
+}
+.linha{
+	width: 70px;
+	padding-top: 2px;
+	margin-top: 0px;
+}
+#titulos span{
+	color: #222222;
+	font-size: 22px;
+	font-weight: bold;
+}
+#titulos td{
+	padding-top: 20px;
+}
+.botao{
+	margin-top: -80px;
+	width: 130px;
+	height: 50px;
+	border: 2px solid #000;
+	background-color: #fff;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.botao:hover{
+	color: #ff0043;
+	border-color: #ff0043;
+	transition: 0.5s;
+}
+.pesquisa{
+	width: 180px;
+	margin-left: 100px;
+}
+.link{
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+	padding: 0px;
+}
+.link:hover{
+	color: #ff0043;
+	transition: 0.3s;
+	text-decoration: none;
+}
+.voltar{
+	margin-top: 30px;
+	font-size: 20px;
+	padding: 0px;
+}
+
+.cartao tr td input{
+    
+    width: 300px;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.cartao tr td input:hover{
+    border: 1px solid #000;
+}
+
+.pagamento {
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+.pagamento label{
+	margin-right: 15px;
+}
+.pagamento input{
+	margin-top: -3px;
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+
+/* footer */
+
+.cont{
+    margin: 0 auto;
+    margin-top: 80px;
+	height: 200px;
+	width: 100%;
+	background-color: #000;
+	border: 1px solid #000;
+	position: absolute;
+	left: -10px;
+	right: -10px;
+}
+.fotr{
+	margin-top: 30px;
+	width: 100%;
+}
+.fotr_historia {
+	padding-right: 40px;
+	padding-left: 110px;
+	width: 430px;
+}
+.fotr_historia p{
+	padding-top: 0px;
+	color: #fff;
+	font-size: 14px;
+}
+.fotr h3 {
+	font-size: 18px;
+	line-height: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+.fotr h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 6px 0 12px 0;
+}
+
+.fotr_contato p {
+	font-size: 14px;
+	line-height: 15px;
+	font-family: Arial, serif;
+	margin-left: 550px;
+	padding: 0px;
+	width: 350px;
+	color: #fff;
+}
+.fotr_contato h3{
+	padding-left: 550px;
+	margin: 0 auto;
+	margin-top: -158px;
+	color: #fff;
+}
+.fotr_redes h3{
+	margin: 0 auto;
+	margin-left: 900px;
+	margin-top: -120px;
+	width: 300px;
+	color: #fff;
+}
+
+.fotr_redes ul li{
+	display: inline-block;
+	margin-right: 10px;
+
+}
+.fotr_redes li:nth-child(1){
+	margin-left: 880px;
+	margin-top: 0px;
+	position: relative;
+}
+.fotr_redes li:nth-child(2){
+	margin-left: 0px;
+	margin-top: 0px;
+	position: relative;
+}
+.fotr_redes li:nth-child(3){
+	margin-left: 0px;
+	margin-top: 0px;
+	position: relative;
+}
+
+.fotr_redes ul li a {
+	border: 3px solid #fff;
+	display: block;
+	padding: 10px;
+}
+
+.fotr_redes ul li a:hover {
+	border-color: #ff0043;
+}
+/*
+
+.cont ul{
+	list-style-type: none;
+	display: flex;
+}
+.cont li{
+	margin-left: 130px;
+}
+.cont li:nth-child(1){
+	margin-top: 100px;
+}
+.cont li:nth-child(2){
+    
+    float: left;
+    margin-left: -687px;
+    margin-top: 210px;
+}
+.cont li:nth-child(3){
+    
+    float: left;
+    margin-left: -632px;
+    margin-top: 320px;
+}
+
+.grid-8 	{width: 260px;}
+
+*/

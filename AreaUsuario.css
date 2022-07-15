@@ -1,0 +1,96 @@
+
+html, body{
+    height: 100%;
+    background-color: whitesmoke;
+}
+.geral{
+	min-height:100%;
+}
+
+
+
+/* Area de informações */
+
+.btnpesquisa{
+    background-color: #be8a62;
+    float: all;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+   cursor: pointer;
+   border: none;
+}
+.search-especial{
+
+	top: 10px;
+	left: 7px;
+}
+
+
+.InfoUser{
+    margin: 0 auto;
+	width: 600px;
+	height: 450px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    box-shadow: 0 0 6px #d3d3d3;
+    border-radius: 30px;
+    border: none;
+    font-family: Arial;
+    background-color: #fff;
+
+}
+
+.info{
+	padding-top: 200px;
+	font-family: Arial;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+hr{
+	height: 3px;
+	width: 100px;
+	background-color: #222;
+	border: none;
+	margin: 0 auto;
+	margin-top: -10px;
+	
+}
+.InfoUser li{
+	list-style-type: none;
+	margin: 0 auto;
+	margin-bottom: 30px;
+    text-align: center;
+    height: 50px;
+    border: 1px solid #000;
+    padding-top: 35px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+.InfoUser ul a li {
+
+	background-color: #fff;
+	text-decoration: none;
+	color: #222;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 10px;
+	text-transform: initial;
+	letter-spacing: .1em;
+}
+.InfoUser ul a li:hover{
+	color: #F2CE1B;;
+	border: 1px solid #F2CE1B;;
+    box-shadow: 3px 3px 10px #d3d3d3;
+} 
+.InfoUser ul{
+	padding-top: 80px;
+}
+.InfoUser ul a{
+	text-decoration: none;
+	color: #fff;
+}

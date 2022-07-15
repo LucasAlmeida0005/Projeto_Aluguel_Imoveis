@@ -1,0 +1,148 @@
+
+
+body{
+
+	background-color: #f5f5f5;
+}
+
+
+.search-especial{
+
+	top: 10px;
+	left: 7px;
+}
+.btnpesquisa{
+	background-color: #2D3540;
+	float: all;
+	border-radius: 50px;
+	height: 40px;
+	width: 40px;
+   cursor: pointer;
+   border: none;
+}
+/* FOTO IMÓVEL */
+
+
+
+.fotoimovel{
+	margin-bottom: 0px;
+
+}
+.fotoimovel img{
+	border-radius: 20px;
+}
+.fotoimovel div{
+	display: block;
+	width: 54%;
+	height: 320px;
+   border-radius: 20px;
+
+}
+
+.fotoimovel div:nth-child(1){
+
+	margin-top: 80px;
+	margin-left: 200px;
+}
+
+
+.fotoimovel p{
+   margin: 0 auto;
+   font-size: 22px;
+   text-align: center;
+   margin-top: 100px;
+}
+
+
+/* SETOR DE INFORMAÇÕES DO PROJETO */
+
+
+.info{
+	font-family: Arial;
+	margin: 0 auto;
+	margin-left: 200px;
+	padding-top: 190px;
+	text-align: left;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 24px;
+}
+
+
+.lista{
+
+	width: 730px;
+	margin-top: 130px;
+	margin-left: 200px;
+}
+.lista div{
+	border-bottom: 1px solid #ccc;
+}
+.lista div h3{
+	font-family: sans-serif;
+}
+.lista div p{
+	font-family: arial;
+	font-size: 18px;
+	margin-top: -15px;
+	padding-top: -15px;
+	color: gray;
+}
+.lista div a{
+	text-decoration: none;
+	font-family: sans-serif;
+	float: right;
+	color: #000;
+	margin-top: -58px;
+}
+.lista div a:hover{
+    color: #ff0043;
+}
+/*
+.InfoBloq{
+	width: 200px;
+	position: relative;
+	margin-top: -400px;
+	margin-left: 710px;
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	padding: 10px 25px;
+}
+.InfoBloq h2{
+	font-family: sans-serif;
+	position: relative;
+}
+.InfoBloq p{
+	font-size: 17px;
+	font-family: arial;
+	position: relative;
+}*/
+
+.hrheader{
+
+	margin-left: 202px;
+	background-color: #000;
+	margin-top: 15px;
+	border: none;
+	height: 3px;
+	width: 80px;
+
+}
+.hrfoter{
+	width: 950px;
+	margin-left: 202px;
+	margin-top: 70px;
+}
+
+.delete{
+	position: absolute;
+	margin-top: 30px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: arial;
+	color: #000;
+}
+.delete:hover{
+	color: #ff0043;;
+}
+

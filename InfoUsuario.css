@@ -1,0 +1,261 @@
+
+
+
+body{
+
+	background-color: whitesmoke;
+}
+
+/* HEADER DO PROJETO */
+
+
+
+
+
+.menuOpcoes{
+	list-style-type: none;
+	position: fixed;
+	float: right;
+	margin-left: 600px;
+	padding-top: 20px;
+	margin-top: 0px;
+}
+.menuOpcoes li{
+    position:relative;
+    float:left;
+    border-right: 15px solid transparent;
+
+  
+}
+
+.menuOpcoes li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+	text-transform: uppercase;
+}
+
+.menuOpcoes li a:hover{
+	/*background:#333;*/
+	color:#ff0043;
+	border-radius: 10px;
+	/*-moz-box-shadow:0 3px 10px 0 #ccc; */
+	/*-webkit-box-shadow:0 3px 10px 0 #ccc;*/
+	/*text-shadow:0px 0px 5px #fff;*/
+    transition: 0.4s;
+}
+
+
+.btnpesquisa{
+	background-color: #be8a62;
+	float: all;
+	border-radius: 50px;
+	height: 40px;
+	width: 40px;
+   cursor: pointer;
+   border: none;
+}
+
+
+
+/* SETOR DE INFORMAÇÕES DO PROJETO */
+
+
+.lista{
+
+	width: 500px;
+	margin-top: 100px;
+	margin-left: 200px;
+}
+.lista div{
+	border-bottom: 1px solid #ccc;
+}
+.lista div h3{
+	font-family: sans-serif;
+}
+.lista div p{
+	font-family: arial;
+	margin-top: -15px;
+	padding-top: -15px;
+	color: gray;
+}
+.lista div a{
+	text-decoration: none;
+	font-family: sans-serif;
+	float: right;
+	color: #000;
+	margin-top: -58px;
+}
+.lista div a:hover{
+    color: #ff0043;
+}
+.InfoBloq{
+	width: 200px;
+	float: right;
+	margin-top: -450px;
+	margin-right: 210px;
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	padding: 10px 25px;
+}
+.InfoBloq h2{
+	font-family: sans-serif;
+}
+.InfoBloq p{
+	font-size: 17px;
+	font-family: arial;
+}
+
+hr{
+	margin-left: 202px;
+	background-color: #000;
+	margin-top: 15px;
+	border: none;
+	height: 3px;
+	width: 100px;
+
+}
+
+
+
+
+
+
+.Cadastro p{
+	float: left;      /* faz elementos poderem entrar um dentro do outro, acho q é isso kkk */
+	margin-top: 90px;
+	padding-right: 20px;    /* espaçamentos lateral e do topo, quase igual o margin mas tem coisas q ele n vai funfar */
+	padding-left: 70px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.Cadastro input[type='submit']{  /* Altera o botão */
+	width: 130px;
+    height: 40px;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;    /* fica negrito */
+    border: none;
+    border-radius: 50px;   /* deixa o quadrado redondo */
+}
+.Cadastro input[type='submit']:hover{  /* :hover é usado quando vc quer um efeito após passar o mouse em cima do botão */
+       
+       background-color: #000;
+       color: #fff;            /* Transition faz o botão ter um timer pra mudar a cor */
+       transition: 0.3s; 
+       cursor: pointer;       /* pointer faz o cursor virar um ponteiro */
+	}
+.info{
+	font-family: Arial;
+	margin: 0 auto;
+	margin-left: 200px;
+	padding-top: 160px;
+	text-align: left;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 24px;
+}
+
+
+
+
+/* FOOTER */
+
+.grid-8 	{width: 260px;}
+
+.container{
+
+    margin: 0 auto;
+    margin-top: 80px;
+	height: 200px;
+	width: 100%;
+	background-color: #000;
+	position: absolute; /* se deixar algo do meio do site no absoluto nada para ele, 
+	                    ele fica por cima de tudo, fiz uma merda deu trabalho pra arrumar KKKK como é footer n tem problema*/
+	left: -10px;
+	right: -10px;
+}
+
+
+.footer_historia {
+	padding-right: 40px;
+	padding-left: 110px;
+}
+.footer_historia p{
+	color: #fff;
+}
+
+.footer h3 {
+	font-size: 18px;
+	line-height: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+.footer h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 6px 0 12px 0;
+}
+
+.footer_contato p {
+	font-size: 14px;
+	line-height: 15px;
+	font-family: Georgia, "Times New Roman", serif;
+	padding-left: 550px;
+	width: 200px;
+	color: #fff;
+}
+.footer_contato h3{
+	padding-left: 550px;
+	margin: 0 auto;
+	margin-top: -158px;
+	color: #fff;
+}
+.footer_redes h3{
+	margin: 0 auto;
+	margin-left: 900px;
+	margin-top: -135px;
+	width: 300px;
+	color: #fff;
+}
+
+.footer_redes ul li{
+	display: inline-block;
+	margin-right: 10px;
+
+}
+.footer_redes li:nth-child(1){
+	margin-left: 859px;
+	margin-top: 0px;
+	position: relative;
+}
+.footer_redes li:nth-child(2){
+	margin-left: 0px;
+	margin-top: 0px;
+	position: relative;
+}
+.footer_redes li:nth-child(3){
+	margin-left: 0px;
+	margin-top: 0px;
+	position: relative;
+}
+
+.footer_redes ul li a {
+	border: 3px solid #fff;
+	display: block;
+	padding: 10px;
+}
+
+.footer_redes ul li a:hover {
+	border-color: #fec63e;
+}

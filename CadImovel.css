@@ -1,0 +1,162 @@
+
+
+
+
+/* Area de inserção de dados */
+
+
+.lista{
+
+	width: 600px;
+	margin-top: 130px;
+	margin-left: 200px;
+
+}
+.lista div{
+	border-bottom: 1px solid #ccc;
+}
+.lista div h3{
+	font-family: sans-serif;
+}
+.lista div p{
+	font-family: arial;
+	margin-top: -15px;
+	padding-top: -15px;
+	color: gray;
+}
+.lista div a{
+	text-decoration: none;
+	font-family: sans-serif;
+	float: right;
+	color: #000;
+	margin-top: -58px;
+}
+.lista div a:hover{
+    color: #ff0043;
+}
+.lista input{
+	background-color: whitesmoke;
+}
+
+.lista input[type='text']{
+	width: 490px;
+	color: #474a51;
+	height: 18px;
+	border: none;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+input:focus{
+	box-shadow: 0 0 0 0;
+	outline: 0;
+}
+
+.InfoBloq{
+	width: 300px;
+	float: right;
+	margin-top: -880px;
+	margin-right: 150px;
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	padding: 10px 25px;
+}
+.InfoBloq h2{
+	font-family: sans-serif;
+}
+.InfoBloq p{
+	font-size: 17px;
+	font-family: arial;
+}
+
+.search-especial{
+
+	top: 10px;
+	left: 7px;
+}
+
+.info{
+	font-family: Arial;
+	margin-left: -600px;
+	padding-top: 190px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 24px;
+}
+.hrheader{
+	margin-left: 202px;
+	background-color: #000;
+	margin-top: -10px;
+	border: none;
+	height: 3px;
+	width: 100px;
+
+}
+
+.cadbtn{
+	width: 190px;
+	color: #000;
+	border: 2px solid #000;
+	height: 45px;
+	margin: 0 auto;
+	font-family: arial;
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 0px;
+	margin-top: 40px;
+	margin-bottom: 120px;
+	background-color: whitesmoke;
+	cursor: pointer;
+
+}
+
+.cadbtn:hover{
+	border-color:#F2CE1B;;
+	color: #F2CE1B;;
+	transition: 0.4s;
+}
+.btnpesquisa{
+	background-color: #be8a62;
+	float: all;
+	border-radius: 50px;
+	height: 40px;
+	width: 40px;
+   cursor: pointer;
+   border: none;
+}
+
+
+/* FOTO IMÓVEL */
+
+
+
+.fotoimovel{
+	margin-bottom: 100px;
+}
+.fotoimovel div{
+	display: block;
+	width: 26.3%;
+	height: 160px;
+	border: 2px solid #000;
+   border-radius: 20px;
+   border-color: #d3d3d3;
+
+}
+
+.fotoimovel div:nth-child(1){
+
+	margin-top: -560px;
+	margin-left: 843px;
+}
+.fotoimovel div:nth-child(2){
+
+	margin-top: 23px;
+	margin-left: 843px;
+}
+
+.fotoimovel p{
+   font-size: 22px;
+   margin: 0 auto;
+   margin-left: 110px;
+   margin-top: 69px;
+}

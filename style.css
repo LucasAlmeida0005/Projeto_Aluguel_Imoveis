@@ -1,0 +1,388 @@
+
+
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: whitesmoke;
+}
+
+/* Header */
+
+
+.header{
+
+    
+	width: 100%;
+	height: 100px;
+	position: fixed;    /* fixado faz o header descer conforme vc rola a página */
+    border: 0px solid #fff;
+    background-color: #2D3540;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 6px 0px #2D3540;
+}
+.icon{
+	position: absolute;
+	width: 30px ;
+	height: 30px;
+	float: left;
+	padding-right: 10px;
+	padding-top: 30px;
+	margin-left: -173px;
+	cursor: pointer;
+}
+
+.iconUser{
+	width: 35px ;
+	height: 35px;
+	float: right;
+	padding-right: 140px;
+	padding-top: 28px;
+   
+}
+
+.iconLogo{
+	width: 91px;
+    height: 90px;
+    margin-left: 130px;
+    margin-top: 4px;
+	border-radius: 40px;
+	float: left;
+	padding: 0px;
+	position: relative;
+}
+
+.iconLogo:hover{
+	border-color: #ff0043;
+}
+ .bordaMenu{
+	width: 100px;
+	height: 50px;
+	border: 3px solid #fff;
+	border-radius: 60px;
+	float: right;
+	position: relative;  /* posição relativa deixa o quadrado selecionado pra ele normal kkk */
+	top: 17px;
+	right: 86px;
+
+}
+.bordaMenu:hover{
+	border-color: #F2CE1B;
+}
+
+/* Menu de opções */
+
+.menuOpcoes{
+	list-style-type: none;
+	position: fixed;
+	float: right;
+	margin-left: 600px;
+	padding-top: 20px;
+	margin-top: 0px;
+}
+.menuOpcoes li{
+    position:relative;
+    float:left;
+    border-right: 15px solid transparent;
+
+  
+}
+
+.menuOpcoes li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+	text-transform: uppercase;
+}
+
+.menuOpcoes li a:hover{
+	/*background:#333;*/
+	color:#ff0043;
+	border-radius: 10px;
+	/*-moz-box-shadow:0 3px 10px 0 #ccc; */
+	/*-webkit-box-shadow:0 3px 10px 0 #ccc;*/
+	/*text-shadow:0px 0px 5px #fff;*/
+    transition: 0.4s;
+}
+
+
+
+
+
+/* MENU DROP */
+
+
+
+
+
+label{
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+.linkarea img{
+	padding: 0px;
+	background-color: #2D3540;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+.MenuDrop ul{
+  float: right;
+  margin-right: 20px;
+}
+
+
+.MenuDrop ul li{
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px ;
+  margin-bottom: 10px;
+  line-height: 30px;
+  margin-right: 30px;
+}
+
+
+.MenuDrop ul{
+  position: fixed;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-right: 0px;
+  height: 330px;
+  background-color: #2D3540;
+  top: 80px;
+  right: -100%;
+  text-align: center;
+  transition: .5s;
+ 
+}
+.MenuDrop ul li a{
+  margin: 0 auto;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+ 
+}
+
+.menu li{
+
+  padding: 0.7em 0.5em;
+  margin: 0.3em 0;
+  border: 0.5em;
+  cursor: pointer;
+}
+.menu li:hover{
+  padding: 0.7em 0.5em;
+  background: #d3b418;
+  border-radius: 0.5em;
+}
+
+#check{
+  display: none;
+  
+}
+
+#check:checked ~ ul{
+  right: 0%;
+}
+
+
+
+
+
+/* Pesquisa   */
+
+
+
+
+.Pesquisar{
+	position: relative;
+}
+
+.search-box{
+    position: fixed;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    height: 40px;
+    border-radius: 40px;
+    padding: 5px;
+    margin-left: 950px;
+    margin-top: 38px;
+    border: none;
+    /*border: solid #ff0043 2px;*/
+
+}
+
+.search-box:hover{
+    background: #fafafa;
+}
+.search-box:hover > .search-text{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-btn{
+    color: #e0e0e0;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:#ff0043;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.search-text{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 24px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+.btnpesquisa{
+    background-color: #2D3540;
+}
+
+
+/* FOOOTERRR */
+
+
+.container ul{
+	list-style-type: none;
+	display: flex;
+}
+.container li{
+	margin-left: 130px;
+}
+.container li:nth-child(1){
+	margin-top: 100px;
+}
+.container li:nth-child(2){
+    
+    float: left;
+    margin-left: -687px;
+    margin-top: 210px;
+}
+.container li:nth-child(3){
+    
+    float: left;
+    margin-left: -632px;
+    margin-top: 320px;
+}
+
+
+
+
+
+.grid-8 	{width: 260px;}
+
+.container{
+
+    margin: 0 auto;
+    margin-top: 80px;
+	height: 200px;
+	width: 100%;
+	background-color: #2D3540;
+	position: absolute; /* se deixar algo do meio do site no absoluto nada para ele, 
+	                    ele fica por cima de tudo, fiz uma merda deu trabalho pra arrumar KKKK como é footer n tem problema*/
+	left: -10px;
+	right: -10px;
+}
+.footer{
+	margin-top: 30px;
+	width: 100%;
+}
+
+
+.footer_historia {
+	padding-right: 40px;
+	padding-left: 110px;
+}
+.footer_historia p{
+	color: #fff;
+}
+
+.footer h3 {
+	font-size: 18px;
+	line-height: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+.footer h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 6px 0 12px 0;
+}
+
+.footer_contato p {
+	font-size: 14px;
+	line-height: 15px;
+	font-family: Georgia, "Times New Roman", serif;
+	padding-left: 550px;
+	width: 200px;
+	color: #fff;
+}
+.footer_contato h3{
+	padding-left: 550px;
+	margin: 0 auto;
+	margin-top: -158px;
+	color: #fff;
+}
+.footer_redes h3{
+	margin: 0 auto;
+	margin-left: 900px;
+	margin-top: -135px;
+	width: 300px;
+	color: #fff;
+}
+
+.footer_redes ul li{
+	display: inline-block;
+	margin-right: 10px;
+
+}
+.footer_redes li:nth-child(1){
+	margin-left: 859px;
+	margin-top: 0px;
+	position: relative;
+}
+.footer_redes li:nth-child(2){
+	margin-left: 0px;
+	margin-top: 0px;
+	position: relative;
+}
+.footer_redes li:nth-child(3){
+	margin-left: 0px;
+	margin-top: 0px;
+	position: relative;
+}
+
+.footer_redes ul li a {
+	border: 3px solid #fff;
+	display: block;
+	padding: 10px;
+}
+
+.footer_redes ul li a:hover {
+	border-color: #ff0043;
+}

@@ -1,0 +1,140 @@
+
+/* observações para Paulin Agiota */
+
+/* como pode ver tem um monte de .algumacoisa kkk esses pontos são usados pra editar classes, pode ver q defini uma
+classe header lá no código */
+
+/* se quiser acessar algo especifico dessa classe coloca .nomeDaClasse 'p' e oq vc quer editar nela, tipo um p
+tem exemplo ai ora baixo kkk */
+
+/* ou pode chamar diretamente q nem o bodi aqui em baixo, bodi é foda */
+
+body{
+
+	background-color: #fff;
+}
+
+
+/* Menu */
+
+
+
+
+hr{
+	height: 3px;
+	width: 80px;
+	background-color: #000;
+	border: none;
+	margin: 0 auto;
+	margin-top: 7px;
+}
+
+
+.sbox{
+	top: 7px;
+}
+
+.lista{
+
+	width: 600px;
+	margin-top: 130px;
+	margin-left: 200px;
+}
+.lista div{
+	border-bottom: 2px solid #ccc;
+}
+.lista div h3{
+	font-family: sans-serif;
+	margin-bottom: 10px;
+	margin-top: 50px;
+}
+.lista div p{
+	font-family: arial;
+	margin-top: -15px;
+	padding-top: -15px;
+	color: gray;
+}
+.lista div a{
+	text-decoration: none;
+	font-family: sans-serif;
+	float: right;
+	color: #000;
+	margin-top: -58px;
+}
+.lista div a:hover{
+    color: #ff0043;
+}
+
+.lista input{
+	width: 540px;
+	color: #474a51;
+	height: 18px;
+	border: none;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+input:focus{
+	box-shadow: 0 0 0 0;
+	outline: 0;
+}
+
+.search-especial{
+	top: 10px;
+}
+
+.btnpesquisa{
+	background-color: #be8a62;
+	float: all;
+	border-radius: 50px;
+	height: 40px;
+	width: 40px;
+    cursor: pointer;
+    border: none;
+}
+
+.info{
+	font-family: Arial;
+	margin-left: -612px;
+	padding-top: 190px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 24px;
+}
+.hrheader{
+	float: left;
+	margin-left: 202px;
+	background-color: #000;
+	margin-top: -10px;
+	border: none;
+	height: 3px;
+	width: 100px;
+	position: relative;
+}
+h4{
+	padding-top: 30px;
+	font-family: Arial;
+	color: #ff0043;
+}
+
+.cadbtn{
+	margin: 0 auto;
+	width: 160px;
+	border: 2px solid #000;
+	height: 40px;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 30px;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.cadbtn:hover{
+	border-color: #ff0043;
+	color: #ff0043;
+	transition: 0.4s;
+}
+
+/* FOOTER */
+
