@@ -60,4 +60,8 @@ Projeto realizado em PHP, HTML e CSS. Este projeto foi realizado como trabalho d
 <div align="center">
 <img src="https://user-images.githubusercontent.com/81642604/184431893-5b84c983-0df2-47de-b69b-31a1b1e5190c.png" width="900px">
 </div>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/81642604/184432897-497ef975-27ea-4281-b3bf-e9a690108ac1.png" width="900px">
+</div>
 
